@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+   
+
+}
+body{
+    margin-left: 70px;
+}
+#btn{
+    background-color: rgb(2, 116, 145);
+    border: 1px solid rgb(2, 116, 145);
+    height: 50px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+   margin-bottom: 10px;
+    cursor: pointer;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(4,30%);
+    width: 80%;
+    /* margin-left: 70px; */
+    margin-bottom: 40px;
+}
+.images img{
+height: 300px;
+margin-top: 40px;
+transition: .8s;
+
+}
+.image p{
+    margin-left: 10px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 112, 240);
+    cursor: pointer;
+   
+ 
+}
+
+.images img:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+.images .image .price{
+    margin-left: 25px;
+    padding-top: 9px;
+    font-weight: bolder;
+    color: rgb(247, 4, 4);
+}
